@@ -1,0 +1,110 @@
+/* Fullscreen centering */
+body, html, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Centering wrapper */
+.Nike-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* Main content box (540x960) */
+.nike-container {
+  width: 540px;
+  height: 960px;
+  background: red;
+  background-size: cover;
+  font-family: sans-serif;
+  color: white;
+  position: relative;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Top bar */
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.gear-icon {
+  width: 30px;
+  height: 30px;
+  background-color: #555;
+  border-radius: 50%;
+}
+
+.currency span {
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.green {
+  color: #7cff7c;
+}
+
+.yellow {
+  color: #ffd700;
+}
+
+/* Hero text block */
+.hero-text {
+  position: absolute;
+  top: 35%;
+  left: 5%;
+  right: 5%;
+  text-align: left;
+}
+
+.hero-text h1 {
+  font-size: 36px;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.hero-text p {
+  margin-top: 10px;
+  font-size: 16px;
+  opacity: 0.8;
+}
+
+/* Bottom nav bar */
+.menu-bar {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 10px 0;
+}
+
+.menu-bar button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 12px;
+  text-align: center;
+  padding: 5px;
+  flex-grow: 1;
+  cursor: pointer;
+}
+
+.menu-bar .active {
+  border: 2px solid white;
+  border-radius: 5px;
+}

@@ -1,0 +1,97 @@
+.otp-container {
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: black;
+}
+
+.otp-card {
+  background-color: #121212;
+    width: 360px;
+    padding:  80px 20px;
+    border-radius: 8px;
+    position: relative;
+    color: white;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.05);
+}
+
+.otp-title {
+  position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    z-index: 3;
+}
+
+.otp-subtext {
+  font-size: 14px;
+  color: #aaa;
+}
+
+.otp-email {
+  color: #1e90ff;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.otp-input {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: 1px solid #333;
+  background-color: #222;
+  color: #fff;
+}
+
+.otp-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #1e90ff;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.otp-box-group {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin: 20px 0;
+}
+
+.otp-box-input {
+  width: 48px;
+  height: 56px;
+  font-size: 24px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  background-color: #fff;
+  color: #000;
+  transition: border-color 0.2s;
+}
+
+.otp-box-input:focus {
+  border-color: #1e90ff;
+}
+
+.resend-text {
+  margin-top: 16px;
+  font-size: 14px;
+  color: #666;
+}
+
+.resend-link {
+  color: #1e90ff;
+  cursor: pointer;
+  text-decoration: underline;
+}
